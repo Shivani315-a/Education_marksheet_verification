@@ -1,0 +1,8 @@
+streamlit
+easyocr
+PyMuPDF
+rapidfuzz
+numpy
+torch
+torchvision
+opencv-python
