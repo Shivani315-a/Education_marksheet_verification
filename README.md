@@ -1,2 +1,30 @@
-# Education_marksheet_verification
-Cloud-ready Marksheet Verification System built with Streamlit, EasyOCR, and RapidFuzz. Extracts text directly from PDF marksheets (no Poppler, no Tesseract) and verifies student name, surname, education level, and result status (Pass/Fail). Uses fuzzy matching to handle OCR errors and minor spelling variations for reliable verification.
+# 🎓 Marksheet Verification System
+
+OCR-based academic marksheet verification system built using:
+
+- Streamlit
+- EasyOCR
+- RapidFuzz
+- PyMuPDF
+
+## 🚀 Features
+
+- PDF to OCR extraction (No Tesseract, No Poppler)
+- Name and surname fuzzy matching
+- Education level detection
+- Pass/Fail detection
+- Clean UI
+
+## 📦 Installation
+
+pip install -r requirements.txt
+
+## ▶ Run
+
+streamlit run app.py
+
+## 📌 Project Structure
+
+app.py → Streamlit UI  
+ocr_utils.py → OCR extraction  
+verification.py → Verification logic  
